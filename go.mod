@@ -1,4 +1,4 @@
-module github.com/frankrap/deribit-api
+module github.com/jeonghoyeo7/deribit-api
 
 go 1.13
 
@@ -7,5 +7,8 @@ require (
 	github.com/json-iterator/go v1.1.9
 	github.com/sourcegraph/jsonrpc2 v0.0.0-20191222043438-96c4efab7ee2
 	github.com/stretchr/testify v1.5.1
-	nhooyr.io/websocket v1.8.5
+	nhooyr.io/websocket v1.8.5	
+	github.com/frankrap/deribit-api v1.0.3
 )
+
+replace github.com/frankrap/deribit-api => ./
